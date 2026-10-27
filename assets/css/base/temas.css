@@ -1,0 +1,46 @@
+/* CORES */
+:root {
+  /* Fundos */
+  --fundo-principal: #080D17;
+  --fundo-destaque: #0C1B2E;
+  --cards: #111C2E;
+
+  /* Textos */
+  --titulos-btn: #F5F7FA;
+  --texto: #BBC7D6;
+  --texto-segundario: #8191A8;
+
+  /* Botões */
+  --btn-destaque: #2575FC;
+  --btn-houver: #438BFF;
+  --fundo-btn: #263C56;
+
+  /* Bordas */
+  --bordas: #23364D;
+}
+
+/* FONTES — usar com font: var(--nome); */
+:root {
+  --fonte: "Inter", sans-serif;
+
+  /* "Seu conteúdo. Sua tela. Seu LC Player." */
+  --titulo-principal: 700 60px/1.15 var(--fonte);
+
+  /* "Veja o LC Player em ação." */
+  --titulo-secao: 700 36px/1.2 var(--fonte);
+
+  /* "TV ao vivo", "Filmes e séries", "Favoritos" */
+  --titulo-cards: 600 20px/1.3 var(--fonte);
+
+  /* Descrições e parágrafos */
+  --texto-comum: 400 16px/1.6 var(--fonte);
+
+  /* Menu e botões */
+  --texto-btn: 600 16px/1.4 var(--fonte);
+
+  /* "CONHEÇA POR DENTRO" — texto acima do título */
+  --texto-subtitulo: 600 15px/1.4 var(--fonte);
+
+  /* "Interface ilustrativa." — pequenas observações */
+  --legendas: 400 12px/1.5 var(--fonte);
+}

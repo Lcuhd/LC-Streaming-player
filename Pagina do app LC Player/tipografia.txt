@@ -1,0 +1,11 @@
+Tipografia: Inter, com sans-serif como alternativa. É uma escolha para reproduzir o estilo; a imagem gerada não tem uma fonte exata identificável.
+
+| Elemento | Desktop | Celular | Peso |
+|---|---:|---:|---:|
+| Título principal | `56px` | `36px` | 700 |
+| Títulos das seções | `36px` | `28px` | 700 |
+| Títulos dos cards | `20px` | `18px` | 600 |
+| Texto comum | `16px` | `16px` | 400 |
+| Botões e menu | `14px` | `14px` | 600 |
+| Legendas | `12px` | `12px` | 400 |
+| Texto pequeno acima dos títulos | `12px` | `12px` | 600 |
