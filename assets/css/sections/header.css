@@ -1,7 +1,9 @@
 [data-header="main"] {
+  grid-column: 2 / 4;
   display: grid;
   grid-template-columns: 1fr 2fr 3fr 1fr;
   border-bottom: 2px solid var(--bordas);
+  margin: 5rem 0;
 }
 
 [data-header="container"] {

@@ -1,0 +1,72 @@
+[data-cards="conainter"] {
+  grid-column: 1 / 5;
+  background: var(--fundo-destaque);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cardsTitulo {
+  margin: 2rem 0;
+}
+[data-cards="titulo"] {
+  font: var( --titulo-secao);
+  color: var(--titulos-btn);
+}
+
+[data-cards="span"] {
+  font: var(--texto-subtitulo);
+  color: var(--texto-segundario);
+}
+
+[data-cards="blocos"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+[data-blocks] {
+  width: 300px;
+  height: 200px;
+  margin: 2rem 2rem;
+  background: var(--cards);
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 2px solid var(--bordas);
+}
+
+[data-blocks] i {
+   color: var(--btn-destaque);
+  font-size: 4rem;
+  padding: 5px;
+}
+
+[data-blocks] .titulo {
+  font: var(--titulo-cards);
+  color: var(--titulos-btn);
+  padding-left: 10px;
+}
+
+[data-cards="download"] {
+  color: var(--titulos-btn);
+  background: var(--fundo-btn);
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+[data-apk="download"] {
+  background: var(--btn-destaque);
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+}

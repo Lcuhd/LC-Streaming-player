@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
     <title>LC Player</title>
 </head>
 
@@ -53,47 +53,54 @@
 
                 <div data-demonstracao="cont">
                     <div data-cont="tv">
-                    <i class="fa-solid fa-display"></i>
-                    <p class="titulo">TV ao vivo</p>
-                    <p class="texto">Canais, categorias e guia de programação.</p>
-                </div>
-                <div data-cont="filmes">
-                    <i class="fa-solid fa-clapperboard"></i>
-                    <p class="titulo">Filmes e séries</p>
-                    <p class="texto">Pesquisa, detalhes, temporadas e episódios.</p>
-                </div>
-                <div data-cont="star">
-                    <i class="fa-regular fa-star"></i>
-                    <p class="titulo">Favoritos</p>
-                    <p class="texto">Seus títulos e canais sempre por perto.</p>
-                </div>
+                        <i class="fa-solid fa-display"></i>
+                        <p class="titulo">TV ao vivo</p>
+                        <p class="texto">Canais, categorias e guia de programação.</p>
+                    </div>
+                    <div data-cont="filmes">
+                        <i class="fa-solid fa-clapperboard"></i>
+                        <p class="titulo">Filmes e séries</p>
+                        <p class="texto">Pesquisa, detalhes, temporadas e episódios.</p>
+                    </div>
+                    <div data-cont="star">
+                        <i class="fa-regular fa-star"></i>
+                        <p class="titulo">Favoritos</p>
+                        <p class="texto">Seus títulos e canais sempre por perto.</p>
+                    </div>
                 </div>
             </article>
 
 
         </section>
 
-        <!-- <section data-cards="conainter">
-            <h1 data-cards="titulo">Escolha a onde assistir.</h1>
-            <p data-cards="span">O mesmo APK Android para celular, tablet, Android TV e TV Box.</p>
+        <section data-cards="conainter">
+            <div class="cardsTitulo">
+                <h1 data-cards="titulo">Escolha a onde assistir.</h1>
+                <p data-cards="span">O mesmo APK Android para celular, tablet, Android TV e TV Box.</p>
+            </div>
 
             <article data-cards="blocos">
-                <div data-cards="smart">
-                    <p>Celular e tabet</p>
-                    <div data-cards="download">Baixar APK</div>
+                <div data-blocks="smart">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <p class="titulo">Celular e tabet </p>
+                    <a href="http://" data-apk="download">Baixar APK</a>
                 </div>
-                <div data-cards="tv/android">
-                    <p>Android TV e TV Box</p>
-                    <div data-cards="download">Instalar pelo downloader</div>
-                    <div data-cards="download">Play Store</div>
+                <div data-blocks="tv/android">
+                    <i class="fa-solid fa-display"></i>
+                    <p class="titulo">Android TV e TV Box</p>
+                    <ul data-cards="download">Instalar pelo downloader
+                        <!-- <li>codigo:</li> -->
+                    </ul>
 
+                    <a href="http://" data-apk="download">Play Store</a>
                 </div>
-                <div data-cards="pc">
-                    <p>Computador</p>
-                    <div data-cards="download">Baixar versão</div>
+                <div data-blocks="pc">
+                    <i class="fa-solid fa-computer"></i>
+                    <p class="titulo">Computador</p>
+                    <a href="http://" data-apk="download">Baixar versão</a>
                 </div>
             </article>
-        </section> -->
+        </section>
 
         <!-- <div data-download="container">
         <div data-download="01">
@@ -138,7 +145,7 @@
         <li><a href="#">Ajuda</a></li>
     </ul>
    </footer> -->
-    <script type="module" src="assets/js/main.js"></script>
+    <script type="module" src="./assets/js/main.js"></script>
 </body>
 
 </html>
