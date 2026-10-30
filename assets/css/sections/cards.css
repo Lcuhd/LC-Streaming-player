@@ -59,7 +59,7 @@
   text-align: center;
   padding: 15px;
   border-radius: 10px;
-  cursor: pointer;
+  cursor: not-allowed;
   margin: 5px;
 }
 
@@ -69,4 +69,6 @@
   text-align: center;
   padding: 15px;
   border-radius: 10px;
+  
+  cursor: not-allowed;
 }
