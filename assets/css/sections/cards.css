@@ -10,10 +10,10 @@
 .cardsTitulo {
   margin: 2rem 0;
 }
-[data-cards="titulo"] {
+/* [data-cards="titulo"] {
   font: var( --titulo-secao);
   color: var(--titulos-btn);
-}
+} */
 
 [data-cards="span"] {
   font: var(--texto-subtitulo);
@@ -40,7 +40,9 @@
   border: 2px solid var(--bordas);
 }
 
-[data-blocks] i {
+[data-blocks] .fa-mobile-screen,
+[data-blocks] .fa-display,
+[data-blocks] .fa-computer {
    color: var(--btn-destaque);
   font-size: 4rem;
   padding: 5px;

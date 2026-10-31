@@ -12,11 +12,11 @@
   color: var(--texto);
 }
 
-[data-demonstracao="titulo"] {
+/* [data-demonstracao="titulo"] {
   color: var(--titulos-btn);
   font: var(--titulo-secao);
   margin: 1rem 0;
-}
+} */
 
 [data-demonstracao="video"] {
   max-width: 90%;

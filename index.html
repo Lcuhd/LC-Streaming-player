@@ -42,13 +42,13 @@
 
         <section data-demonstracao="main">
             <p data-demonstracao="span">conheça por dentro</p>
-            <h1 data-demonstracao="titulo">Veja o LC Player em ação</h1>
+            <h1 data-titulo="titulo">Veja o LC Player em ação</h1>
             <p data-demonstracao="span">Um passeio pelo aplicativo, do primeiro toque ao play.</p>
             <img data-demonstracao="video" src="./assets/img/video.png" alt="lc player"
                 srcset="demonstração do aplicativo">
 
             <article data-demonstracao="detalhes">
-                <h1 data-demonstracao="titulo">Tudo no seu lugar.</h1>
+                <h1 data-titulo="titulo">Tudo no seu lugar.</h1>
                 <p data-demonstracao="span">Encontre, organize e aproveite o conteúdo das suas listas.</p>
 
                 <div data-demonstracao="cont">
@@ -69,13 +69,11 @@
                     </div>
                 </div>
             </article>
-
-
         </section>
 
         <section data-cards="conainter">
             <div class="cardsTitulo">
-                <h1 data-cards="titulo">Escolha a onde assistir.</h1>
+                <h1 data-titulo="titulo">Escolha a onde assistir.</h1>
                 <p data-cards="span">O mesmo APK Android para celular, tablet, Android TV e TV Box.</p>
             </div>
 
@@ -83,7 +81,7 @@
                 <div data-blocks="smart">
                     <i class="fa-solid fa-mobile-screen"></i>
                     <p class="titulo">Celular e tabet </p>
-                    <a data-apk="download">Em bree</a>
+                    <a href="#" data-apk="download"><i class="fa-solid fa-download"></i> Baixar para Android</a>
                 </div>
                 <div data-blocks="tv/android">
                     <i class="fa-solid fa-display"></i>
@@ -91,48 +89,65 @@
                     <ul data-cards="download">Instalar pelo downloader
                         <!-- <li>codigo:</li> -->
                     </ul>
-                    <a data-apk="download">Em breve</a>
+                    <a data-apk="download"><i class="fa-brands fa-google-play"></i> Em breve</a>
                 </div>
                 <div data-blocks="pc">
                     <i class="fa-solid fa-computer"></i>
                     <p class="titulo">Computador</p>
-                    <a data-apk="download">Em breve</a>
+                    <a data-apk="download"><i class="fa-solid fa-download"></i> Em breve</a>
                 </div>
             </article>
         </section>
 
-        <!-- <div data-download="container">
-        <div data-download="01">
-            <p data-download="titulo">01</p>
-            <span>Baixe o aplicativo</span>
-            <p>Escolha a forma de instalação para o seu aparelho.</p>
+        <div data-tutorial="main">
+            <div class="cardsTitulo">
+                <h1 data-titulo="titulo">Do download ao primeiro play.</h1>
+                <p data-cards="span">Siga o passo a passo e comece a assisir rapidamente</p>
+            </div>
+            <article data-tutorial="cards">
+                <div data-apresentacao="01">
+                    <p data-numero="titulo">01</p>
+                    <span>Baixe o aplicativo</span>
+                    <p class="desc">Escolha a forma de instalação para o seu aparelho.</p>
+                </div>
+                <div data-apresentacao="02">
+                    <p data-numero="titulo">02</p>
+                    <span>Instale o LC Player</span>
+                    <p class="desc">Siga as orientações na tela.</p>
+                </div>
+                <div data-apresentacao="03">
+                    <p data-numero="titulo">03</p>
+                    <span>Configure seu aceso</span>
+                    <p class="desc">Conclua a ativação e configure sua lista.</p>
+                </div>
+            </article>
         </div>
-         <div data-download="02">
-            <p data-download="titulo">02</p>
-            <span>Instale o LC Player</span>
-            <p>Siga as orientações na tela.</p>
-        </div>
-         <div data-download="03">
-            <p data-download="titulo">03</p>
-            <span>Configure seu aceso</span>
-            <p>Conclua a ativação e configure sua lista.</p>
-        </div>
-    </div> -->
 
-        <!-- <div data-faq="container">
-        <p data-faq="titulo">Antes de começar</p>
-        <span>Tire suas dúvidas sobre o aplicativo.</span>
-        <ul>
-            <li>O aplicativo ja vem com conteúdo?</li>
-            <p>O LC Player reproduz o conteúdo das listas configuradas.Canais, filmes e séries dependem da lista vinculada ao seu acesso.</p>
-            <li>QUais aparelhos são compativeis?</li>
-            <p></p>
-            <li>Como começo a usar?</li>
-            <p></p>
-            <li>Preciso de ajuda para configurar?</li>
-            <p></p>
-        </ul>
-    </div> -->
+        <section data-faq="main">
+            <div class="titulofaq">
+                <h1 data-titulo="titulo">Antes de começar</h1>
+                <p data-sub="span">Tire suas duvidas sobre o aplicativo</p>
+            </div>
+            <dl data-faq="acord">
+                <div class="faq-item">
+                    <dt>O aplicativo já vem com conteúdo?</dt>
+                    <dd>O LC Player reproduz o conteúdo das listas configuradas. Canais, filmes e séries dependem da
+                        lista vinculada ao seu acesso.</dd>
+                </div>
+                <div class="faq-item">
+                    <dt>Quais aparelhos são compatíveis?</dt>
+                    <dd>Lorem ipsum dolor sit amet.</dd>
+                </div>
+                <div class="faq-item">
+                    <dt>Como começo a usar?</dt>
+                    <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, labore?</dd>
+                </div>
+                <div class="faq-item">
+                    <dt>Preciso de ajuda para configurar?</dt>
+                    <dd>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut?</dd>
+                </div>
+            </dl>
+        </section>
     </main>
     <!-- <footer data-footer="conainer">
     <p><span>LC</span> Player</p>
