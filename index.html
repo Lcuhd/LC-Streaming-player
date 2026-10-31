@@ -14,9 +14,9 @@
         <div data-navegation="logo"><span>LC</span>Player</div>
         <ul>
             <li><a href="#">Aplicativo</a></li>
-            <li><a href="#">Demonstração</a></li>
-            <li><a href="#">Baixar</a></li>
-            <li><a href="#">Instalação</a></li>
+            <li><a href="#demo">Demonstração</a></li>
+            <li><a href="#down">Baixar</a></li>
+            <li><a href="#install">Instalação</a></li>
             <li><a data-navegation="painel" href="https://painel.lcstreaming.com.br">Painel</a></li>
         </ul>
     </nav>
@@ -40,7 +40,7 @@
             </div>
         </section>
 
-        <section data-demonstracao="main">
+        <section data-demonstracao="main" id="demo">
             <p data-demonstracao="span">conheça por dentro</p>
             <h1 data-titulo="titulo">Veja o LC Player em ação</h1>
             <p data-demonstracao="span">Um passeio pelo aplicativo, do primeiro toque ao play.</p>
@@ -77,7 +77,7 @@
                 <p data-cards="span">O mesmo APK Android para celular, tablet, Android TV e TV Box.</p>
             </div>
 
-            <article data-cards="blocos">
+            <article data-cards="blocos" id="down">
                 <div data-blocks="smart">
                     <i class="fa-solid fa-mobile-screen"></i>
                     <p class="titulo">Celular e tabet </p>
@@ -100,7 +100,7 @@
         </section>
 
         <div data-tutorial="main">
-            <div class="cardsTitulo">
+            <div class="cardsTitulo" id="install">
                 <h1 data-titulo="titulo">Do download ao primeiro play.</h1>
                 <p data-cards="span">Siga o passo a passo e comece a assisir rapidamente</p>
             </div>
@@ -124,7 +124,7 @@
         </div>
 
         <section data-faq="main">
-            <div class="titulofaq">
+            <div class="titulofaq" id="faq">
                 <h1 data-titulo="titulo">Antes de começar</h1>
                 <p data-sub="span">Tire suas duvidas sobre o aplicativo</p>
             </div>
@@ -136,29 +136,35 @@
                 </div>
                 <div class="faq-item">
                     <dt>Quais aparelhos são compatíveis?</dt>
-                    <dd>O LC Player é compatível com celulares e tablets Android, além de Android TV e TV Box. A instalação utiliza o mesmo APK Android.</dd>
+                    <dd>O LC Player é compatível com celulares e tablets Android, além de Android TV e TV Box. A
+                        instalação utiliza o mesmo APK Android.</dd>
                 </div>
                 <div class="faq-item">
                     <dt>Como começo a usar?</dt>
-                    <dd>Baixe e instale o aplicativo no seu aparelho. Depois, abra o LC Player e siga as orientações de ativação para configurar seu acesso.</dd>
+                    <dd>Baixe e instale o aplicativo no seu aparelho. Depois, abra o LC Player e siga as orientações de
+                        ativação para configurar seu acesso.</dd>
                 </div>
                 <div class="faq-item">
                     <dt>Preciso de ajuda para configurar?</dt>
-                    <dd>Entre em contato com quem forneceu seu acesso para receber ajuda com a ativação e a configuração da sua lista.</dd>
+                    <dd>Entre em contato com quem forneceu seu acesso para receber ajuda com a ativação e a configuração
+                        da sua lista.</dd>
                 </div>
             </dl>
         </section>
     </main>
-    <!-- <footer data-footer="conainer">
-    <p><span>LC</span> Player</p>
-    <p>uma experiéncia própria para assistir.</p>
-
-    <ul>
-        <li><a href="#">Aplicativo</a></li>
-        <li><a href="#">Downloads</a></li>
-        <li><a href="#">Ajuda</a></li>
-    </ul>
-   </footer> -->
+    <footer>
+        <section data-footer="main">
+            <div>
+                <div data-navegation="logo" class="footerLogo"><span>LC</span>Player</div>
+            <p class="footerSub">uma experiéncia própria para assistir.</p>
+            </div>
+            <ul>
+                <li><a href="#">Aplicativo</a></li>
+                <li><a href="#">Downloads</a></li>
+                <li><a href="#">Ajuda</a></li>
+            </ul>
+        </section>
+    </footer>
     <script type="module" src="./assets/js/main.js"></script>
 </body>
 

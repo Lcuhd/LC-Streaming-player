@@ -1,76 +1,40 @@
-[data-main="container"] {
+html {
+  scroll-behavior: smooth;
+}
+
+[data-main="container"], footer {
   display: grid;
-  grid-template-columns: 100px 2fr 2fr 100px ;
+  grid-template-columns: 100px 2fr 2fr 100px;
 }
 
-[data-titulo="titulo"]{
-   color: var(--titulos-btn);
-   font: var(--titulo-secao);
+[data-titulo="titulo"] {
+  color: var(--titulos-btn);
+  font: var(--titulo-secao);
 }
 
-[data-faq="main"] {
-  grid-column: 1 / 5;
+[data-footer="main"] {
+  grid-column: 2/ 4;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  margin: 2rem 0rem;
+  justify-content: space-between;
+  border-top: 2px solid var(--bordas);
+  border-bottom: 2px solid var(--bordas);
+  padding: 1rem 0;
 }
 
-.titulofaq {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 2rem 0;
-}
-
-[data-sub="span"] {
+.footerSub {
+  margin: 10px 0 20px 0;
   color: var(--texto-segundario);
 }
 
-
-
-[data-faq="acord"] {
-  color: var(--texto);
-}
-
-.faq-item {
- max-width: 100%;
-  width: 1100px;
-  border: 1px solid var(--bordas);
-  background: var(--fundo-btn);
-  margin-bottom: 20px;
-  box-sizing: border-box;
-}
-
-[data-faq="acord"] dt, dd {
-  padding: 10px;
-}
-
-[data-faq="acord"] dt {
-  font: var(--texto-subtitulo);
+[data-footer="main"] ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 
-[data-faq="acord"] dt::after {
-   content: "+";
-  display: inline-block;
-  transition: transform 0.2s;
-  font-size: 20px;
-}
-
-[data-faq="acord"] dt.ativo::after{
-   transform: rotate(45deg);
-}
-
-[data-faq="acord"] dd {
-  font: var(--texto);
-  display: none;
-}
-
-[data-faq="acord"] dd.ativo {
-  display: block;
+[data-footer="main"] ul li a{
+  margin-left: 10px;
+  color: var(--texto);
 }
