@@ -6,7 +6,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 4rem 0;
 }
 
 .titulofaq {
@@ -64,4 +63,17 @@ dd {
 
 [data-faq="acord"] dd.ativo {
   display: block;
+}
+
+/* FAQ Mobile */
+
+@media (max-width: 700px) {
+ .faq-item {
+  max-width: 100%;
+  width: 300px;
+  border: 1px solid var(--bordas);
+  background: var(--fundo-btn);
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
 }

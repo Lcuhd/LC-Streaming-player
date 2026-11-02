@@ -54,3 +54,39 @@
 [data-header="img"] {
   grid-column: 3 / 5;
 }
+
+/* Header mobile */
+
+@media (max-width: 700px) {
+
+  [data-header="main"] {
+  grid-column: 1 / 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: 2px solid var(--bordas);
+  margin: 2rem 1rem;
+  width: 300px;
+}
+
+[data-header="container"] {
+  grid-column: 1 / 2;
+  margin-bottom: 4rem;
+}
+
+[data-header="texto"]{
+  font: var(--titulo-secao);
+  color: var(--titulos-btn);
+}
+
+[data-down="btn"],
+[data-video="video"] {
+  padding: 10px 20px;
+  margin: 10px;
+  font: var(--titulos-btn);
+  border: 2px solid var(--bordas);
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+}

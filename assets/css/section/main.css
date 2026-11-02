@@ -1,0 +1,17 @@
+
+[data-main="container"], footer {
+  display: grid;
+  grid-template-columns: 100px 2fr 2fr 100px;
+}
+
+[data-titulo="titulo"] {
+  color: var(--titulos-btn);
+  font: var(--titulo-secao);
+}
+
+@media (max-width: 700) {
+  [data-main="container"], footer {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+}

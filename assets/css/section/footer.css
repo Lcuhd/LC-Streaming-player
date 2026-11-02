@@ -1,22 +1,8 @@
-html {
-  scroll-behavior: smooth;
-}
-
-[data-main="container"], footer {
-  display: grid;
-  grid-template-columns: 100px 2fr 2fr 100px;
-}
-
-[data-titulo="titulo"] {
-  color: var(--titulos-btn);
-  font: var(--titulo-secao);
-}
-
 [data-footer="main"] {
-  grid-column: 2/ 4;
+  grid-column: 1/ 5;
   display: flex;
   flex-wrap: wrap;
-  margin: 2rem 0rem;
+  margin: 2rem 20px;
   justify-content: space-between;
   border-top: 2px solid var(--bordas);
   border-bottom: 2px solid var(--bordas);
@@ -24,7 +10,7 @@ html {
 }
 
 .footerSub {
-  margin: 10px 0 20px 0;
+  margin: 10px 0 20px 20px;
   color: var(--texto-segundario);
 }
 

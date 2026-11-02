@@ -4,6 +4,14 @@
   font-family: sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var( --fundo-principal);
+}
+
 img {
   box-sizing: border-box;
   width: 100%;
@@ -20,6 +28,4 @@ a {
   color: var(--titulos-btn);
 }
 
-body {
-  background: var( --fundo-principal);
-}
+

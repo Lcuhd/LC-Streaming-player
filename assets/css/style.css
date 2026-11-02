@@ -1,13 +1,13 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css");
 @import url(./base/temas.css);
 @import url(./base/reset.css);
-@import url(./sections/menu.css);
-@import url(./sections/main.css);
-@import url(./sections/header.css);
-@import url(./sections/demonstracao.css);
-@import url(./sections/cards.css);
-@import url(./sections/tutorial.css);
-@import url(./sections/faq.css);
+@import url(./section/menu.css);
+@import url(./section/main.css);
+@import url(./section/header.css);
+@import url(./section/demonstracao.css);
+@import url(./section/cards.css);
+@import url(./section/tuto.css);
+@import url(./section/faq.css);
+@import url(./section/footer.css);
 
-
-
+@import url(./section/responsivo.css);

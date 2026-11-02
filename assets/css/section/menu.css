@@ -1,0 +1,140 @@
+[data-menu="main"] {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+[data-menu="logo"] {
+  font: var(--texto-btn);
+  color: var(--titulos-btn);
+}
+
+[data-menu="logo"] span {
+  padding: 5px;
+  background: var(--btn-destaque);
+  border-radius: 5px;
+}
+
+[data-menu="btn"] {
+  display: none;
+}
+
+[data-menu="ul"] {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+[data-menu="ul"] li {
+  margin-left: 20px;
+  max-width: 100%;
+}
+
+[data-menu="ul"] li a {
+  font: var(--texto-btn);
+  padding: 10px;
+}
+
+[data-menu="painel"] {
+  padding: 5px 10px;
+  background: var(--btn-destaque);   
+  border-radius: 5px;
+}
+
+[data-menu="painel"]:hover{
+  background: var(--btn-houver);
+}
+
+/* Efeito no botão mobile */
+
+[data-menu="btn"] {
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: var(--titulos-btn);
+  cursor: pointer;
+}
+
+[data-menu="btn"] span {
+  position: relative;
+  width: 24px;
+  height: 2px;
+  background: currentColor;
+  transition: background 0.2s;
+}
+
+[data-menu="btn"] span::before,
+[data-menu="btn"] span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: currentColor;
+  transition: transform 0.2s;
+}
+
+[data-menu="btn"] span::before {
+  transform: translateY(-7px);
+}
+
+[data-menu="btn"] span::after {
+  transform: translateY(7px);
+}
+
+/* Menu aberto: esconde o meio e cruza as outras duas */
+[data-menu="btn"].active span {
+  background: transparent;
+}
+
+[data-menu="btn"].active span::before {
+  transform: rotate(45deg);
+}
+
+[data-menu="btn"].active span::after {
+  transform: rotate(-45deg);
+}
+
+/* Menu Mobile */
+
+@media (max-width: 700px) {
+  [data-menu="main"] {
+    margin: 0px;
+    padding: 1rem 0;
+  }
+
+  [data-menu="logo"] {
+    z-index: 300;
+    padding: 0 1rem;
+  }
+
+  [data-menu="btn"] {
+    display: flex;
+    position: relative;
+    z-index: 300;
+    margin: 0 1rem;
+  }
+
+  [data-menu="ul"] {
+    display: none;
+    flex-direction: column;
+    align-items: start;
+    position: absolute;
+    background: var(--cards);
+    width: 100%;
+    height: 60%;
+    top: 0;
+    z-index: 200;
+  }
+
+  [data-menu="ul"].active {
+    display: flex;
+  }
+}

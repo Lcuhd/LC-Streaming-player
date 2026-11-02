@@ -1,3 +1,7 @@
-import iniciaAccordeon from './module/accordion.js';
+import iniMenu from "./module/menu.js";
+import inidownloader from "./module/downloader.js";
+import iniAccordeon from "./module/accordeon.js";
 
-iniciaAccordeon();
+iniMenu();
+inidownloader();
+iniAccordeon();

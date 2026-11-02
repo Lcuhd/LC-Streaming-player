@@ -1,27 +1,46 @@
 <!DOCTYPE html>
-<html lang="ptBR">
+<html lang="pt-Br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
-    <title>LC Player</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>LC Player — Seu conteúdo. Sua tela.</title>
+  <meta name="description"
+    content="Conheça o LC Player: organize e reproduza suas listas de canais, filmes e séries em celulares Android, tablets, Android TV e TV Box.">
+
+  <meta name="theme-color" content="#080D17">
+
+  <!-- Prévia ao compartilhar o link -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="LC Player">
+  <meta property="og:title" content="LC Player — Seu conteúdo. Sua tela.">
+  <meta property="og:description"
+    content="Conheça o aplicativo, veja os recursos e saiba como instalar no seu aparelho Android.">
+  <meta property="og:url" content="https://lcstreaming.com.br/">
+  <meta property="og:image" content="https://lcstreaming.com.br/assets/img/despositivos.png">
+  <meta property="og:image:alt" content="LC Player em celular e TV">
+
+  <link rel="canonical" href="https://lcstreaming.com.br/">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-    <nav data-navegation="conainer">
-        <div data-navegation="logo"><span>LC</span>Player</div>
-        <ul>
-            <li><a href="#">Aplicativo</a></li>
-            <li><a href="#demo">Demonstração</a></li>
-            <li><a href="#down">Baixar</a></li>
-            <li><a href="#install">Instalação</a></li>
-            <li><a data-navegation="painel" href="https://painel.lcstreaming.com.br">Painel</a></li>
-        </ul>
-    </nav>
-    <main data-main="container">
-        <section data-header="main">
+  <nav data-menu="main">
+    <div data-menu="logo"><span>LC</span>Player</div>
+    <button data-menu="btn" aria-label="Menu" aria-expanded="false" aria-controls="menu"><span></span></button>
+    <ul data-menu="ul" id="menu"> 
+      <li><a href="#aplicativo">Aplicativo</a></li>
+      <li><a href="#demo">Demonstração</a></li>
+      <li><a href="#down">Download</a></li>
+      <li><a href="#install">Instalação</a></li>
+      <li><a data-menu="painel" href="https://painel.lcstreaming.com.br">Acessar Painel</a></li>
+    </ul>
+  </nav>
+  <main data-main="container">
+  <section data-header="main">
             <article data-header="container">
                 <p data-header="subtitulo">Seu entretenimento Organizado</p>
                 <h1 data-header="texto">Seu conteúdo.<br>
@@ -71,35 +90,38 @@
             </article>
         </section>
 
-        <section data-cards="conainter">
+         <section data-cards="conainter"> 
             <div class="cardsTitulo">
-                <h1 data-titulo="titulo">Escolha a onde assistir.</h1>
+                <h1 data-titulo="titulo">Escolha onde assistir.</h1>
                 <p data-cards="span">O mesmo APK Android para celular, tablet, Android TV e TV Box.</p>
             </div>
 
+            <!-- data-apk = botao ativo-->
             <article data-cards="blocos" id="down">
                 <div data-blocks="smart">
                     <i class="fa-solid fa-mobile-screen"></i>
-                    <p class="titulo">Celular e tabet </p>
-                    <a href="#" data-apk="download"><i class="fa-solid fa-download"></i> Baixar para Android</a>
-                </div>
+                    <p class="titulo">Celular e tablet </p> 
+                     <a href="#" data-cards="download"><i class="fa-solid fa-download"></i> Baixar para Android</a> 
+               </div>
                 <div data-blocks="tv/android">
                     <i class="fa-solid fa-display"></i>
                     <p class="titulo">Android TV e TV Box</p>
-                    <ul data-cards="download">Instalar pelo downloader
-                        <!-- <li>codigo:</li> -->
-                    </ul>
-                    <a data-apk="download"><i class="fa-brands fa-google-play"></i> Em breve</a>
+                    <details data-cards="download"> 
+                        <summary>Instalar pelo downloader</summary>
+                        <br>
+                        <p>Código Downloader: <a data-codigo="5405899">5405899</a></p>
+                    </details>
+                    <a data-cards="download"><i class="fa-brands fa-google-play"></i> Em breve</a>
                 </div>
                 <div data-blocks="pc">
                     <i class="fa-solid fa-computer"></i>
                     <p class="titulo">Computador</p>
-                    <a data-apk="download"><i class="fa-solid fa-download"></i> Em breve</a>
+                    <a data-cards="download"><i class="fa-solid fa-download"></i> Em breve</a>
                 </div>
             </article>
         </section>
 
-        <div data-tutorial="main">
+        <section data-tutorial="main">
             <div class="cardsTitulo" id="install">
                 <h1 data-titulo="titulo">Do download ao primeiro play.</h1>
                 <p data-cards="span">Siga o passo a passo e comece a assisir rapidamente</p>
@@ -117,11 +139,11 @@
                 </div>
                 <div data-apresentacao="03">
                     <p data-numero="titulo">03</p>
-                    <span>Configure seu aceso</span>
+                    <span>Configure seu acesso</span>
                     <p class="desc">Conclua a ativação e configure sua lista.</p>
                 </div>
             </article>
-        </div>
+        </section>
 
         <section data-faq="main">
             <div class="titulofaq" id="faq">
@@ -151,11 +173,11 @@
                 </div>
             </dl>
         </section>
-    </main>
-    <footer>
+  </main>
+  <footer>
         <section data-footer="main">
             <div>
-                <div data-navegation="logo" class="footerLogo"><span>LC</span>Player</div>
+                <div data-menu="logo" class="footerLogo"><span>LC</span>Player</div>
             <p class="footerSub">uma experiéncia própria para assistir.</p>
             </div>
             <ul>
@@ -164,8 +186,7 @@
                 <li><a href="#">Ajuda</a></li>
             </ul>
         </section>
-    </footer>
-    <script type="module" src="./assets/js/main.js"></script>
+  <script type="module" src="./assets/js/main.js"></script>
 </body>
 
 </html>

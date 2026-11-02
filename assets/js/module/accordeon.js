@@ -1,4 +1,4 @@
-export default function inciaAccordion() {
+export default function iniAccordeon(){
     const accordionList = document.querySelectorAll('dt');
 
 function activeList() {
